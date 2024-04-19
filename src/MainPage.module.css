@@ -19,7 +19,7 @@
 }
 
 .taskCard {
-  background-color: rgb(206, 41, 192);
+  background-color: rgb(97, 98, 182);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -30,8 +30,8 @@
 }
 
 .taskButton {
-  background-color: rgb(46, 179, 179);
-  color: rgb(190, 154, 62);
+  background-color: rgb(76, 139, 223);
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;

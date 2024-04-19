@@ -3,6 +3,7 @@ import MainPage from "./MainPage";
 import "./App.css";
 import CoordinateConversionPage from "./CoordinateConversionPage";
 import UploadFileFormPage from "./UploadFileFormPage";
+import FindOnMapPage from "./FindOnMapPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             element={<CoordinateConversionPage />}
           />
           <Route path="/upload" element={<UploadFileFormPage />} />
+          <Route path="/find-on-map" element={<FindOnMapPage />} />
         </Routes>
       </Router>
     </div>

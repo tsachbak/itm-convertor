@@ -27,6 +27,14 @@ const MainPage = () => {
             <button className={styles.taskButton}>Upload File</button>
           </Link>
         </div>
+
+        <div className={styles.taskCard}>
+          <h2>Find On Map</h2>
+          <p>Find a location on the map</p>
+          <Link to="/find-on-map">
+            <button className={styles.taskButton}>Go to Map</button>
+          </Link>
+        </div>
       </main>
     </div>
   );

@@ -1,0 +1,57 @@
+/* UploadFileForm.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.file-input {
+  margin-right: 100px;
+}
+
+.file-input:hover {
+  background-color: blue;
+}
+
+.submit-button:hover {
+  background-color: blue;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: chartreuse;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: coral;
+}
+
+.table-container tr:hover {
+  background-color: blueviolet;
+}

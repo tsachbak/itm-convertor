@@ -1,0 +1,57 @@
+/* CoordinateConvertor.module.css */
+
+.CoordinateConvertor {
+  max-width: 100%;
+  margin: -10px 0 0 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.CoordinateConvertor h2 {
+  font-size: 1.5rem;
+}
+
+.CoordinateConvertor .inputGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: first baseline;
+  margin-bottom: 15px;
+}
+
+.CoordinateConvertor label {
+  width: 100px;
+  padding: 0px;
+  text-align: left;
+}
+
+.CoordinateConvertor input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100px;
+}
+
+.CoordinateConvertor button {
+  width: 100%;
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: -10px 0 10px 0;
+}
+
+.CoordinateConvertor button:hover {
+  background-color: #0056b3;
+}
+
+.CoordinateConvertor input[type="text"][readonly] {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,43 @@
+/* MainPage.module.css */
+
+.container {
+  text-align: center;
+}
+
+.header {
+  background-color: turquoise;
+  color: black;
+  padding: 20px 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.taskCard {
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  height: 150px;
+  text-align: center;
+}
+
+.taskButton {
+  background-color: azure;
+  color: rgb(190, 154, 62);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.taskButton:hover {
+  background-color: blue;
+}

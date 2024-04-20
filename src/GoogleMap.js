@@ -11,8 +11,12 @@ class GoogleMap extends React.Component {
       height: "550px",
     };
 
-    if (markerPosition == null) {
-      return null;
+    let mapSrc;
+    if (markerPosition != null) {
+      mapSrc = `https://www.google.com/maps/embed/v1/place?key=AIzaSyAeJVIJfjVmaT4ectvqn9vxOE4CezVw-0o&q=${markerPosition.lat},${markerPosition.lng}`;
+    } else {
+      mapSrc =
+        "https://www.google.com/maps/embed/v1/view?key=AIzaSyAeJVIJfjVmaT4ectvqn9vxOE4CezVw-0o&center=32.92814,35.07647&zoom=14";
     }
 
     return (
@@ -24,7 +28,7 @@ class GoogleMap extends React.Component {
           zoom={0.5}
           initialCenter={{ lat: 32.92814, lng: 35.07647 }}
           style={{ border: 0 }}
-          src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAeJVIJfjVmaT4ectvqn9vxOE4CezVw-0o&q=${markerPosition.lat},${markerPosition.lng}`}
+          src={mapSrc}
           allowFullScreen
         ></iframe>
       </div>

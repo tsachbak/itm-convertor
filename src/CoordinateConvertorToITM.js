@@ -11,7 +11,7 @@ const CoordinateConverterToItm = () => {
   const handleConvert = async () => {
     try {
       const response = await axios.post(
-        "http://itm-convertor-server.azurewebsites.net/api/ConvertToITM/coordinates",
+        "https://polite-rock-06dfa820f.5.azurestaticapps.net/api/ConvertToITM/coordinates",
         {
           latitude: parseFloat(latitude),
           longitude: parseFloat(longitude),

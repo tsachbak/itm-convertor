@@ -17,7 +17,7 @@ const UploadFileForm = () => {
 
     try {
       const response = await axios.post(
-        "http://itm-convertor-server.azurewebsites.net/api/Uploadfile/uploadfile",
+        "https://polite-rock-06dfa820f.5.azurestaticapps.net/api/Uploadfile/uploadfile",
         formData,
         {
           headers: {

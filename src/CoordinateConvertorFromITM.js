@@ -11,7 +11,7 @@ const CoordinateConverterFromItm = () => {
   const handleConvert = async () => {
     try {
       const response = await axios.post(
-        "https://polite-rock-06dfa820f.5.azurestaticapps.net/api/ConvertFromITM/coordinates",
+        "http://localhost:5087/api/ConvertFromITM/coordinates",
         {
           itmEast: parseInt(itmEast),
           itmNorth: parseInt(itmNorth),
